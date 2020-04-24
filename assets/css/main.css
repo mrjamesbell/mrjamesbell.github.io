@@ -1,0 +1,121 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+        a:visited{
+            color: #d00;
+        }
+
+        body{
+                font-family: sans-serif;
+                font-size: 1.1rem;
+               line-height:160%;
+               max-width:52rem;
+               padding: 2rem;
+               margin-left: 2rem;
+               margin-top: 0;
+               margin:auto;
+               background-color: #FDFDFD;
+            }
+
+        img {
+            max-width: 100%;
+        }
+
+        ol, ul {
+            margin-left: 2rem;
+            padding: 0 0 1rem 0;
+            line-height: 160%;
+        }
+
+        h1,h2,h3,h4,h5 {
+                line-height:120%;
+                margin-bottom: .25rem;            }
+
+        h4 {
+            color: grey;
+            font-size: .8rem;
+            margin-top: -1rem;
+        }
+
+        h2 {
+                margin-bottom: 1rem;
+                font-size: 1.75rem;
+        }
+
+
+        p   {
+                margin:0 0 1rem;
+            }
+
+        header {
+                font-size: 2rem;
+                padding-bottom: 1.5rem;
+        }
+
+        nav {
+            font-size: 1.1rem;
+            color: white;
+            padding: 0 0 1rem 0;
+        }
+
+        nav ul {
+                 list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+        }
+        nav li {
+                display: inline-block;
+                }
+
+        nav a {
+                display: block;
+                padding: .5rem;
+                background-color: black;
+                color: white;
+                text-decoration: none;
+            }
+
+        nav a:visited{
+            color: white;
+        }
+
+        hr {
+            border: 2px solid #999;
+        }
+
+        @media (max-width:550px) {
+
+            html {
+                font-size: 80%;
+            }
+
+            body {
+                margin-right: 2rem;
+            }
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        footer {
+            padding-top: 1rem;
+            font-size: .75rem;
+            text-align: center;
+        }
+
+        .posttitle {
+        margin-bottom: 1rem;
+}
+
+        .postcontent {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
