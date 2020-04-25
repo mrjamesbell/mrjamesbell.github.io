@@ -39,14 +39,14 @@ html {
                 margin-bottom: .25rem;            }
 
         h4 {
-            color: grey;
+            color: #d00 ;
             font-size: .8rem;
             margin-top: -1rem;
         }
 
         h2 {
                 margin-bottom: 1rem;
-                font-size: 1.75rem;
+                font-size: 2.5rem;
         }
 
 
@@ -55,14 +55,15 @@ html {
             }
 
         header {
-                font-size: 2rem;
+                font-size: 1rem;
                 padding-bottom: 1.5rem;
+                text-transform: uppercase;
         }
 
         nav {
             font-size: 1.1rem;
-            color: white;
-            padding: 0 0 1rem 0;
+            color: black;
+            padding: .25 0 1rem 0;
         }
 
         nav ul {
@@ -72,18 +73,29 @@ html {
         }
         nav li {
                 display: inline-block;
+                padding-bottom: .1rem;
                 }
 
         nav a {
                 display: block;
-                padding: .5rem;
-                background-color: black;
-                color: white;
+                padding-right: .25rem;
+                padding-left: .25rem;
+                color: #d00;
                 text-decoration: none;
-            }
+                text-transform: uppercase;
+                font-weight: bold;
+                }
 
         nav a:visited{
-            color: white;
+            color: #d00;
+        }
+
+        nav a:hover {
+            text-decoration: none;
+            /* This is horrible hack */
+            border-bottom: 1px solid red;
+            margin-bottom: -1px;
+            color: #d00;
         }
 
         hr {
@@ -107,15 +119,56 @@ html {
 
         footer {
             padding-top: 1rem;
-            font-size: .75rem;
+            font-size: 2rem;
             text-align: center;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
         }
 
         .posttitle {
         margin-bottom: 1rem;
+        padding-left: .25rem;
+        padding-top: .25rem;
+        padding-bottom: .2rem;
+        border-bottom: .2rem solid black ;
+        border-top: .2rem solid black ;
+
 }
 
         .postcontent {
             margin-top: 1rem;
             margin-bottom: 2rem;
         }
+
+img.right {
+    display:block;
+    float:right;
+    max-height: 100%;
+}
+
+.hero {
+    border: .5rem solid black;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.social-media {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.fa {
+    color: black;
+}
+
+.reverse {
+    text-transform: uppercase;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    padding :.5rem;
+    display: inline-block;
+    min-width: auto;
+    overflow: hidden;
+}

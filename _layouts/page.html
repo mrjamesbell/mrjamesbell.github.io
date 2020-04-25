@@ -1,10 +1,8 @@
-<!doctype html>
 <html>
   <head>
     <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
     <meta charset="utf-8">
     <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>{{ page.title }}</title>
   </head>
   <body>
@@ -17,20 +15,15 @@
         <li><a href="/about.html">About</a></li>
         <li><a href="/now.html">Now</a></li>
     </ul>
-
 </nav>
-
 </header>
-
-<div class="posttitle">
-  <h2>{{ page.title }}</h2>
-  <h4>Posted {{ page.date | date: "%-d %B %Y" }}</h4>
-</div>
+ <div>
     {{ content }}
-  </body>
-<footer>
-{% include social.html %}
+</div>
+<h4>Updated {{ page.date | date: "%-d %B %Y" }}</h4>
+</body>
 
-<h4>🛎 {{ 'now' | date: "%Y" }}</h4>
+<footer>
+🛎
 </footer>
 </html>
