@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 100%;
+    font-size: 110%;
 }
 
         a:visited{
@@ -115,6 +115,10 @@ html {
             img {
                 max-width: 100%;
             }
+
+            div.yearbox {
+                width: 80%;
+            }
         }
 
         footer {
@@ -173,7 +177,22 @@ img.right {
     overflow: hidden;
 }
 
-.archive ul, li{
-    list-style-type: none;
-    margin-left: 0;
+.archive_contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.yearbox {
+    width: 80%;
+    padding: 1rem 0 1rem 0;
+    font-size: 1rem;
+}
+
+#under {
+    border-bottom: .2rem solid black;
+    display: block;
+}
+
+.update-meta {
+    margin-top: 2em;
 }
