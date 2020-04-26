@@ -1,8 +1,9 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
 ---
+{% include header.html %}
 <div class="hero">
     <img class="right" src="https://www.gravatar.com/avatar/f9bbdfa5acbc875911686caea16dc53e?s=200">
     <h2> Hello, I'm James</h2>
@@ -22,3 +23,4 @@ This is a hero section for the index page.  It serves as an introduction and cou
    </DIV>
       {% endfor %}
 <p><h2><a href="/archive.html">Older Blog Posts...</a></h2></p>
+{% include footer.html %}

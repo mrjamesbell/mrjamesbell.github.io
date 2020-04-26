@@ -1,29 +1,7 @@
-<html>
-  <head>
-    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    <header>
-    <h1>Mr James Bell</h1>
-    <nav>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/archive.html">Blog</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/now.html">Now</a></li>
-    </ul>
-</nav>
-</header>
+{% include header.html %}
  <div>
     {{ content }}
 </div>
-<h4>Updated {{ page.date | date: "%-d %B %Y" }}</h4>
-</body>
+<p><h4>Updated {{ page.date | date: "%-d %B %Y" }}</h4></p>
 
-<footer>
-🛎
-</footer>
-</html>
+{% include footer.html %}

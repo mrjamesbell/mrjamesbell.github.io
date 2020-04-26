@@ -172,3 +172,8 @@ img.right {
     min-width: auto;
     overflow: hidden;
 }
+
+.archive ul, li{
+    list-style-type: none;
+    margin-left: 0;
+}
