@@ -1,6 +1,6 @@
 ---
-layout:post
-title:Some Things I am Interested In
+layout: post
+title: Some Things I am Interested In
 ---
 ## Some things I an interested in
 - UFOs
