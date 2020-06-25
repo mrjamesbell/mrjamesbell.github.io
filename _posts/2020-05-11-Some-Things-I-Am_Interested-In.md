@@ -15,7 +15,4 @@ title: Some Things I am Interested In
 - Technology
 - Journalism
 - Astronomy
-<<<<<<< HEAD
 - Pants
-=======
->>>>>>> a6e2e9b6d2705c4e948725449c83c02a79068298
