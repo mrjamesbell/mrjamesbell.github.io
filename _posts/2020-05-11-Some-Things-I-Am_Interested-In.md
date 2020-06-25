@@ -15,3 +15,4 @@ title:Some Things I am Interested In
 - Technology
 - Journalism
 - Astronomy
+- Pants
